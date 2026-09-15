@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Folk</title>
+    
+    <!-- Importation de la police élégante depuis Google Fonts -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: black; /* Fond noir */
+            color: white;            /* Texte blanc par défaut */
+            margin: 0;
+            padding: 0;
+            height: 100vh;           /* Permet un centrage vertical sur tout l'écran */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .conteneur-image {
+            display: flex;
+            flex-direction: column;  /* Aligne l'image et le texte verticalement */
+            align-items: center;     /* Centre horizontalement l'image et le texte */
+            text-align: center;
+        }
+
+        .ma-photo {
+            width: 175px;            /* Votre largeur */
+            height: auto;            /* "auto" évite de déformer l'image si 400px était trop haut */
+            margin-bottom: 15px;     /* Espace entre l'image et le texte */
+        }
+
+        .titre-elegant {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;      /* Met le texte en italique */
+            font-weight: 400;        /* Style fin et élégant */
+            font-size: 3rem;         /* Taille du titre */
+            color: #f0e6d2;          /* Couleur blanc cassé très chic */
+            margin: 0;               /* Supprime les marges par défaut du h1 */
+            letter-spacing: 2px;     /* Espace subtil entre les lettres */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="conteneur-image">
+        <!-- Ajout d'une classe pour gérer la taille proprement en CSS -->
+        <img src="Staring.jpg" alt="Staring" class="ma-photo">
+        <h1 class="titre-elegant">Folk.</h1>
+    </div>
+
+</body>
+</html>
